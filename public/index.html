@@ -1,39 +1,17 @@
-<!DOCTYPE html>
-
 <html>
-
-	<head>
-		<title>Clementine.js - The elegant and lightweight full stack JavaScript boilerplate.</title>
-		
-		<link href="/public/css/main.css" rel="stylesheet" type="text/css">
-	</head>
-
-	<header>
-		<p>Welcome, <span id="display-name"></span>!</p>
-		<a class="menu" href="/profile">Profile</a>
-		<p>|</p>
-		<a class="menu" href="/logout">Logout</a>
-	</header>
-
-	<body>
-		<div class="container">
-			<img src="/public/img/clementine_150.png" />
-			<br />
-			<p class="clementine-text">Clementine.js</p>
-		</div>
-	
-		<div class="container">
-			<p>You have clicked the button <span id="click-nbr"></span> times.</p>
-			<br />
-			<div class="btn-container">
-				<button type="submit" class="btn btn-add">CLICK ME!</button>
-				<button class="btn btn-delete">RESET</button>
-			</div>
-		</div>
-		
-		<script type="text/javascript" src="common/ajax-functions.js"></script>
-		<script type="text/javascript" src="controllers/clickController.client.js"></script>
-		<script type="text/javascript" src="controllers/userController.client.js"></script>
-	</body>
-
+    <p1>FreeCodeCamp API Basejump: URL Shortener Microservice</p1><br><br>
+    <p2>User stories:</p2><br>
+    <p3>
+        <br>1) I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
+        <br>2) When I visit that shortened URL, it will redirect me to my original link.
+        <br><br>Example creation usage:
+        <br><br>https://url-shortener-microservice-lelo81.c9users.io/new/https://www.google.com
+        <br>https://url-shortener-microservice-lelo81.c9users.io/new/http://foo.com:80
+        <br>Example creation output
+        <br>{ "original_url":"http://foo.com:80", "short_url":"https://url-shortener-microservice-lelo81.c9users.io/8170" }
+        <br>Usage:
+        <br>https://url-shortener-microservice-lelo81.c9users.io/2871
+        <br>Will redirect to:
+        <br>https://www.google.com/
+</p3>
 </html>
