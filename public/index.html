@@ -1,17 +1,12 @@
 <html>
-    <p1>FreeCodeCamp API Basejump: URL Shortener Microservice</p1><br><br>
+    <p1>FreeCodeCamp: Image Search Abstraction Layer</p1><br><br>
     <p2>User stories:</p2><br>
     <p3>
-        <br>1) I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
-        <br>2) When I visit that shortened URL, it will redirect me to my original link.
-        <br><br>Example creation usage:
-        <br><br>https://url-shortener-microservice-lelo81.c9users.io/new/https://www.google.com
-        <br>https://url-shortener-microservice-lelo81.c9users.io/new/http://foo.com:80
-        <br>Example creation output
-        <br>{ "original_url":"http://foo.com:80", "short_url":"https://url-shortener-microservice-lelo81.c9users.io/8170" }
-        <br>Usage:
-        <br>https://url-shortener-microservice-lelo81.c9users.io/2871
-        <br>Will redirect to:
-        <br>https://www.google.com/
+        <br>1) I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
+        <br>2) I can paginate through the responses by adding a ?offset=2 parameter to the URL.
+        <br>3) I can get a list of the most recently submitted search strings.
+        <br><br>Example URL's:
+        <br><br>https://image-search-abstraction-layer-lelo81.c9users.io/api/imagesearch/lolcats%20funny?offset=10
+        <br>https://image-search-abstraction-layer-lelo81.c9users.io/api/latest/imagesearch/
 </p3>
 </html>
