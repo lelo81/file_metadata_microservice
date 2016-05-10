@@ -14,6 +14,7 @@
   },
   "author": "Leandro Lopes",
   "dependencies": {
-    "request": "2.72.0"
+    "multer": "1.1.0",
+    "body-parser":"1.15.1"
   }
 }
