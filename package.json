@@ -15,7 +15,7 @@
   "author": "Leandro Lopes",
   "dependencies": {
     "multer": "1.1.0",
-    "body-parser":"1.15.1".
+    "body-parser":"1.15.1",
     "express": "^4.12.4",
     "serve-favicon": "2.3.0",
     "dotenv": "^1.2.0"
