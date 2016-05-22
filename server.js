@@ -2,7 +2,6 @@
 
 var path = require('path');
 var express = require('express');
-var request = require('request');
 var favicon = require('serve-favicon');
 var bodyParser = require('body-parser');
 var app = express();
